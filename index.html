@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio Dynamique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="image/logo.png" alt="Logo" class="logo-image">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#bts-sio">BTS SIO</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#veilletechno">Veille Technologique</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Le reste de votre HTML original reste inchangé -->
+        <!-- Section Accueil -->
+        <section id="accueil" class="fade-in">
+            <div class="gif-container">
+                <img src="image/dev.gif" alt="GIF d'accueil" class="gif-image">
+                <div class="welcome-content">
+                    <h1 class="welcome-text">Bienvenue sur mon portfolio</h1>
+                    <p class="welcome-description">Je suis un passionné de technologie et de développement web. Découvrez mes compétences et mes projets.</p>
+                    <a href="#profil" class="btn btn-accueil">En savoir plus sur moi</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section BTS SIO -->
+        <section id="bts-sio" class="fade-in">
+            <div class="bts-container">
+                <div class="bts-description">
+                    <h2>BTS SIO</h2>
+                    <p>Le BTS Services Informatiques aux Organisations (BTS SIO) est un diplôme de niveau Bac+2 qui forme des professionnels capables de concevoir, réaliser et gérer des solutions informatiques adaptées aux besoins des entreprises.</p>
+                    
+                    <h3>Options proposées</h3>
+                    <div class="options-container">
+                        <div class="option">
+                            <h4><strong>SISR</strong></h4>
+                            <p>Cette option est orientée vers l'administration des systèmes et des réseaux. Les étudiants apprennent à gérer les infrastructures informatiques, à assurer la sécurité des systèmes et à résoudre des problèmes techniques.</p>
+                        </div>
+                        <div class="option">
+                            <h4><strong>SLAM</strong></h4>
+                            <p>Cette option se concentre sur le développement de logiciels, d'applications et de solutions web. Les étudiants acquièrent des compétences en programmation, en gestion de projet et en développement d'applications.</p>
+                        </div>
+                    </div>
+
+                    <h3 style="text-align: center;">Perspectives après le BTS</h3>
+                    <p style="text-align: left;">Après avoir obtenu leur BTS SIO, les diplômés peuvent choisir de :</p>
+                    <ul style="text-align: left;">
+                        <li>Poursuivre leurs études en Licence Professionnelle, Master ou école d'ingénieurs.</li>
+                        <li>Intégrer directement le marché du travail en tant que développeur, administrateur systèmes, consultant informatique, etc.</li>
+                        <li>Se spécialiser dans des domaines spécifiques comme la cybersécurité, le big data ou le développement web.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Profil -->
+        <section id="profil" class="fade-in">
+            <div class="profil-container">
+                <div class="profil-description">
+                    <h2>Profil</h2>
+                    <p>Bonjour, je m'appelle Li Johan, 19 ans, actuellement étudiant en première année à l'école INSTA en BTS SIO option SLAM. Passionné par l'informatique, j'aspire à explorer davantage ce domaine passionnant. Je suis animé par la curiosité et la soif d'apprendre dans le monde du développement informatique.</p>
+                    <br>
+                    <h3>Parcours</h3>
+                    <ul class="experience-list">
+                        <li><strong>2019</strong> Stage en développement web et application [ IPSOSENSO ]</li>
+                        <li><strong>2024</strong> Stage création site vitrine à [ Etoile Gourmet ]</li>
+                        <li><strong>2024 - 2025</strong> Création d'un site de restauration à [ Etoile Gourmet ]</li>
+                    </ul>
+                    <br>
+                    <a href="image/CV.pdf" class="btn" download>Télécharger mon CV</a>
+                </div>
+                <div class="profile-image-container">
+                    <img src="image/IMG_9550.jpg" alt="Photo de profil" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <div class="container">
+              <h2>Mes Certifications</h2>
+              <div class="certification">
+                <h3>HTML/CSS</h3>
+                <p>Certification validée avec succès.</p>
+                <a href="#" class="certification-link">Voir la certification</a>
+              </div>
+            </div>
+          </section>
+
+        <!-- Section Compétences -->
+        <section id="skills" class="fade-in">
+            <h2>Mes Compétences</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="image/HTML5.png" alt="HTML5" class="skill-icon">
+                    <span>HTML5</span>
+                </div>
+                <div class="skill">
+                    <img src="image/CSS3.png" alt="CSS3" class="skill-icon">
+                    <span>CSS3</span>
+                </div>
+                <div class="skill">
+                    <img src="image/PHP.png" alt="PHP" class="skill-icon">
+                    <span>PHP</span>
+                </div>
+                <div class="skill">
+                    <img src="image/JavaScript.png" alt="JavaScript" class="skill-icon">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill">
+                    <img src="image/MySql.png" alt="MySQL" class="skill-icon">
+                    <span>MySQL</span>
+                </div>
+                <div class="skill">
+                    <img src="image/Csharp.png" alt="C#" class="skill-icon">
+                    <span>C#</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projects" class="fade-in">
+            <h2>Mes Projets</h2>
+            <div class="project-container">
+                <div class="project">
+                    <h3>Stage Première année</h3>
+                    <p>Faire un site vitrine</p>
+                    <img src="image/interior.png" alt="Image du projet 1" class="project-image">
+                    <a href="\">Voir le projet</a>
+                </div>
+                <div class="project">
+                    <h3>Interface administrateur</h3>
+                    <p>Gestion via l'admin.</p>
+                    <img src="image/cadmin.png" alt="Image du projet 2" class="project-image">
+                    <a href="../restaurant">Voir le projet</a>
+                </div>
+                <div class="project">
+                    <h3>Site e-commerce</h3>
+                    <p>Vente de vehicule d'occasion.</p>
+                    <img src="image/e-commerce.png" alt="Image du projet 3" class="project-image">
+                    <a href="../e-commerce">Voir le projet</a>
+                </div>
+                <div class="project">
+                    <h3>Site Restauration</h3>
+                    <p>Mon site de restauration.</p>
+                    <img src="image/restaurant.png" alt="Image du projet 4" class="project-image">
+                    <a href="../restaurant">Voir le projet</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Veille Technologique -->
+        <section id="veilletechno" class="fade-in">
+            <h2>Veille Technologique : Le Cloud Computing</h2>
+            <div class="link-container">
+                <a href="https://www.canva.com/design/DAGT59rnRGc/SE-qRYlp_VPLkLYLgPXjqg/edit" class="link-block">
+                    <div class="image-container">
+                        <img src="image/cloud_numerique.webp" alt="Cloud Computing" class="image-link">
+                        <p class="link-text">Cliquez ici pour en savoir plus</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="fade-in contact-section">
+            <h2>Contact</h2>
+            <p>Pour me contacter, <a href="mailto:johan.li@outlook.fr">cliquez ici pour m'écrire par mail</a>.</p>
+            <p>Vous pouvez également me suivre sur mes réseaux sociaux :</p>
+            <div class="social-links">
+                <a href="linkedin.com/in/johan-l-0650b7345" target="_blank">LinkedIn</a> | 
+                <a href="https://github.com/jL750" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        // Menu Burger
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
+
+        burger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            burger.innerHTML = navLinks.classList.contains('active') ? 
+                '<i class="fas fa-times"></i>' : '<i class="fas fa-bars"></i>';
+        });
+
+        // Fermer le menu quand on clique sur un lien
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                burger.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+    </script>
+</body>
+</html>
